@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Unbounded";
+}
+
+p {
+  font-family: "Poppins";
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.sectionBackground {
+  background: linear-gradient(
+    180deg,
+    rgba(191, 51, 19, 0) 16.353996101364523%,
+    rgb(245, 131, 39),
+    rgb(191, 51, 19) 77.35485380116958%
+  );
+}
+
+.gradientOverlay {
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 84, 0) 41.63993900835976%,
+    rgb(10, 10, 10),
+    #0a0a0a 100%
+  );
+}
+
+.backgroundImage {
+  background: url("https://framerusercontent.com/images/xOz91BrLMifZXksr8HqpgNMqqEc.jpg?scale-down-to=1024")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.backgroundOverlay {
+  background: radial-gradient(
+    45.1% 44.7% at 52.6% 42.8%,
+    var(--token-4fdd7769-e1d0-45b2-8e3d-fe484baba321, #d94c00) 0%,
+    var(--token-2f560859-5998-4075-847c-9f666c5cfc0b, rgb(0, 0, 0)) 100%
+  );
+  opacity: 0.6;
+}
