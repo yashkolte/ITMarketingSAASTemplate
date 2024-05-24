@@ -1,13 +1,18 @@
-tailwind.config = {
+module.exports = {
   theme: {
     
     extend: {
+      colors: {
+        'primary': '#d69b77',
+      },
       animation: {
-        marquee: 'marquee 25s linear infinite',
+        marqueeLogo: 'marqueeLogo 25s linear infinite',
         marquee2: 'marquee2 25s linear infinite',
+        'marquee': 'marquee var(--marquee-duration) linear infinite',
+        'fade-in': 'fade-in .5s linear forwards',
       },
       keyframes: {
-        marquee: {
+        marqueeLogo: {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
@@ -15,6 +20,13 @@ tailwind.config = {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
+        marquee: {
+          '100%': { transform: 'translateY(-50%)' }
+        },
+        "fade-in": {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 }
+        }
     },
   },
   plugins: [],
@@ -22,3 +34,4 @@ tailwind.config = {
 }
 
 // module.exports = {
+// tailwind.config = {
