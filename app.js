@@ -82,7 +82,6 @@ let tl = gsap.timeline({
     start: "top center",
     end: "bottom center",
     scrub: 1,
-    markers: true, // Remove this line if you don't want to see the markers
   },
 });
 
@@ -91,3 +90,39 @@ tl.to(".gsapCircleAnimate", {
   duration: 1,
   ease: "none",
 });
+
+let tl1 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".gsapProjectAnimate",
+      start: "top center",
+      end: "bottom center",
+      scrub: 1,
+      markers: true, // Remove this line if you don't want to see the markers
+    },
+  });
+
+  tl1.to(".gsapProjectCardAnimate", {
+    y: -100,
+    duration: 1,
+    ease: "none",
+    opacity: 1
+  },"same");
+
+  tl1.to(".gsapProjectCardAnimate2", {
+    y: -200,
+    duration: 1,
+    ease: "none",
+  },"same");
+
+//   tl1.to(".gsapProjectCardAnimateSecond", {
+//     y: -100,
+//     duration: 1,
+//     ease: "none",
+//     opacity: 1
+//   },"same0");
+
+  tl1.to(".gsapProjectCardAnimateSecond2", {
+    y: -200,
+    duration: 1,
+    ease: "none",
+  },"same0");
