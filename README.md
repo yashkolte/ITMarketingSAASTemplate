@@ -64,7 +64,6 @@ Ensure you have the following installed:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js" integrity="sha512-0z8URjGET6GWnS1xcgiLBZBzoaS8BNlKayfZyQNKz4IRp+s7CKXx0yz7Eco2+TcwoeMBa5KMwmTX7Kus7Fa5Uw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="./script.js"></script>
 ```
 
 ---
@@ -95,8 +94,8 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ## Contact
 For questions or feedback, feel free to reach out:
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- Website: [Your Website](#)
+- Email: [yashkolte.dev@gmail.com](mailto:yashkolte.dev@gmail.com)
+- Website: [Your Website](https://yashkolte.github.io/ITMarketingSAASTemplate/)
 
 ---
 
