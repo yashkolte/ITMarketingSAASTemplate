@@ -88,14 +88,14 @@ Contributions are welcome! Please follow these steps:
 ---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT [License](LICENSE). See the LICENSE file for more information.
 
 ---
 
 ## Contact
 For questions or feedback, feel free to reach out:
 - Email: [yashkolte.dev@gmail.com](mailto:yashkolte.dev@gmail.com)
-- Website: [Your Website](https://yashkolte.github.io/ITMarketingSAASTemplate/)
+- Website: [Live Website](https://yashkolte.github.io/ITMarketingSAASTemplate/)
 
 ---
 
